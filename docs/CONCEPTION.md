@@ -1,0 +1,11 @@
+# Conception and architecture
+
+Users: account owner, analyst and integrating software developer. In this local version every user owns independent portfolios; teams/roles are future work. Core question: what do I hold, how much did it cost, what is profit after fees, and which historical changes need investigation? The API does not execute trades, control wallets, custody funds or produce tax filings.
+
+HTTP client -> FastAPI session/owner boundary -> strict Pydantic input -> CSV normalization and ledger checks -> deterministic Decimal replay -> NumPy risk statistics / optional Isolation Forest -> immutable SQLAlchemy snapshot -> JSON/CSV report. SQLite for local runs; PostgreSQL in Compose. Alembic owns schema changes. The market adapter is a read-only side branch and does not silently edit datasets.
+
+User has many Portfolios and LoginSessions. Portfolio has many Datasets and Analyses. Dataset stores reviewed transaction/price JSON, source, coverage, fingerprint and warnings. Analysis stores inputs, results, engine version and timestamp plus Dataset/Portfolio FKs. RequestRecord stores owner/scope/key, payload hash and replay response. Unique constraints enforce email, owner/portfolio name, portfolio/dataset fingerprint and replay receipt. Session token is stored as a digest. Raw ledgers are versioned JSON in this bounded MVP; high-volume deployment can normalize rows into indexed tables.
+
+Limits: 10,000 transactions, 40,000 prices, 20 traded assets, at most 731 calendar days. Exact header imports limit CSV text to 2 million characters for transactions and 4 million for prices. Dataset lists return versions; analysis list returns latest 100. Synchronous evaluation is suitable for bounded local workloads. Upload streaming, background jobs, pagination, shared teams and retention are explicit later changes.
+
+Money stays Decimal with a 60-digit evaluation context. JSON financial outputs are strings. Statistical percentages are finite floating-point fractions. Large numeric return ranges disable statistics rather than corrupting accounting. The normal input contract permits nonnegative values up to 10^15 with at most 12 fractional places and 28 total digits. Negative cash, short sales, duplicate IDs, duplicate day/sequence and prices outside coverage are rejected.

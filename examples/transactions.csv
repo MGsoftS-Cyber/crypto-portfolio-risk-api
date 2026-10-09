@@ -1,0 +1,4 @@
+transaction_id,date,sequence,kind,asset_id,quantity,unit_price,amount,fee
+D1,2026-01-01,1,deposit,,0,0,1000,2
+B1,2026-01-01,2,buy,bitcoin,2,100,0,4
+S1,2026-01-02,1,sell,bitcoin,1,150,0,3

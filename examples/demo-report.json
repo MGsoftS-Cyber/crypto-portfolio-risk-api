@@ -1,0 +1,2184 @@
+{
+  "id": "93b77bce-3e7a-453b-939c-d13dfb2839cf",
+  "portfolio_id": "d9d516de-0c1f-41a2-b888-6cbe4b2ec79d",
+  "dataset_id": "5f34a0a4-8dd8-474e-9bde-1ac1019e1fdf",
+  "inputs": {
+    "dataset_id": "5f34a0a4-8dd8-474e-9bde-1ac1019e1fdf",
+    "as_of": "2026-10-05",
+    "name": "Demo risk review",
+    "enable_ml": true,
+    "concentration_limit": 0.6,
+    "daily_change_limit": 0.1,
+    "turnover_limit": 0.5,
+    "portfolio": {
+      "id": "d9d516de-0c1f-41a2-b888-6cbe4b2ec79d",
+      "name": "Demo Crypto Portfolio",
+      "base_currency": "USD"
+    },
+    "source": "Synthetic daily demonstration",
+    "coverage_end": "2026-10-05",
+    "transactions": [
+      {
+        "transaction_id": "D1",
+        "date": "2026-08-07",
+        "sequence": 1,
+        "kind": "deposit",
+        "asset_id": null,
+        "quantity": "0",
+        "unit_price": "0",
+        "amount": "15000",
+        "fee": "5"
+      },
+      {
+        "transaction_id": "B1",
+        "date": "2026-08-07",
+        "sequence": 2,
+        "kind": "buy",
+        "asset_id": "bitcoin",
+        "quantity": "0.1",
+        "unit_price": "50000",
+        "amount": "0",
+        "fee": "10"
+      },
+      {
+        "transaction_id": "B2",
+        "date": "2026-08-07",
+        "sequence": 3,
+        "kind": "buy",
+        "asset_id": "ethereum",
+        "quantity": "2",
+        "unit_price": "2500",
+        "amount": "0",
+        "fee": "8"
+      },
+      {
+        "transaction_id": "S1",
+        "date": "2026-08-27",
+        "sequence": 1,
+        "kind": "sell",
+        "asset_id": "ethereum",
+        "quantity": "0.5",
+        "unit_price": "2600",
+        "amount": "0",
+        "fee": "3"
+      }
+    ],
+    "prices": [
+      {
+        "date": "2026-08-07",
+        "asset_id": "bitcoin",
+        "close": "50000.00000000"
+      },
+      {
+        "date": "2026-08-07",
+        "asset_id": "ethereum",
+        "close": "2587.50000000"
+      },
+      {
+        "date": "2026-08-08",
+        "asset_id": "bitcoin",
+        "close": "50755.80309174"
+      },
+      {
+        "date": "2026-08-08",
+        "asset_id": "ethereum",
+        "close": "2584.34283698"
+      },
+      {
+        "date": "2026-08-09",
+        "asset_id": "bitcoin",
+        "close": "51265.04885746"
+      },
+      {
+        "date": "2026-08-09",
+        "asset_id": "ethereum",
+        "close": "2568.46183707"
+      },
+      {
+        "date": "2026-08-10",
+        "asset_id": "bitcoin",
+        "close": "51367.30953860"
+      },
+      {
+        "date": "2026-08-10",
+        "asset_id": "ethereum",
+        "close": "2542.95630352"
+      },
+      {
+        "date": "2026-08-11",
+        "asset_id": "bitcoin",
+        "close": "51044.32897569"
+      },
+      {
+        "date": "2026-08-11",
+        "asset_id": "ethereum",
+        "close": "2512.44504180"
+      },
+      {
+        "date": "2026-08-12",
+        "asset_id": "bitcoin",
+        "close": "50426.40001007"
+      },
+      {
+        "date": "2026-08-12",
+        "asset_id": "ethereum",
+        "close": "2482.33715180"
+      },
+      {
+        "date": "2026-08-13",
+        "asset_id": "bitcoin",
+        "close": "49746.84944588"
+      },
+      {
+        "date": "2026-08-13",
+        "asset_id": "ethereum",
+        "close": "2457.97804989"
+      },
+      {
+        "date": "2026-08-14",
+        "asset_id": "bitcoin",
+        "close": "49260.53028448"
+      },
+      {
+        "date": "2026-08-14",
+        "asset_id": "ethereum",
+        "close": "2443.80554519"
+      },
+      {
+        "date": "2026-08-15",
+        "asset_id": "bitcoin",
+        "close": "49154.79423896"
+      },
+      {
+        "date": "2026-08-15",
+        "asset_id": "ethereum",
+        "close": "2442.64920712"
+      },
+      {
+        "date": "2026-08-16",
+        "asset_id": "bitcoin",
+        "close": "49484.04439056"
+      },
+      {
+        "date": "2026-08-16",
+        "asset_id": "ethereum",
+        "close": "2455.28363857"
+      },
+      {
+        "date": "2026-08-17",
+        "asset_id": "bitcoin",
+        "close": "50150.73062725"
+      },
+      {
+        "date": "2026-08-17",
+        "asset_id": "ethereum",
+        "close": "2480.30618317"
+      },
+      {
+        "date": "2026-08-18",
+        "asset_id": "bitcoin",
+        "close": "50939.42670439"
+      },
+      {
+        "date": "2026-08-18",
+        "asset_id": "ethereum",
+        "close": "2514.35837388"
+      },
+      {
+        "date": "2026-08-19",
+        "asset_id": "bitcoin",
+        "close": "51592.08482981"
+      },
+      {
+        "date": "2026-08-19",
+        "asset_id": "ethereum",
+        "close": "2552.65616105"
+      },
+      {
+        "date": "2026-08-20",
+        "asset_id": "bitcoin",
+        "close": "51898.17918172"
+      },
+      {
+        "date": "2026-08-20",
+        "asset_id": "ethereum",
+        "close": "2589.74520874"
+      },
+      {
+        "date": "2026-08-21",
+        "asset_id": "bitcoin",
+        "close": "51768.24863511"
+      },
+      {
+        "date": "2026-08-21",
+        "asset_id": "ethereum",
+        "close": "2620.36201437"
+      },
+      {
+        "date": "2026-08-22",
+        "asset_id": "bitcoin",
+        "close": "51265.14810655"
+      },
+      {
+        "date": "2026-08-22",
+        "asset_id": "ethereum",
+        "close": "2640.26490008"
+      },
+      {
+        "date": "2026-08-23",
+        "asset_id": "bitcoin",
+        "close": "50582.09152347"
+      },
+      {
+        "date": "2026-08-23",
+        "asset_id": "ethereum",
+        "close": "2646.90368039"
+      },
+      {
+        "date": "2026-08-24",
+        "asset_id": "bitcoin",
+        "close": "49975.15664051"
+      },
+      {
+        "date": "2026-08-24",
+        "asset_id": "ethereum",
+        "close": "2639.82228041"
+      },
+      {
+        "date": "2026-08-25",
+        "asset_id": "bitcoin",
+        "close": "49673.82971242"
+      },
+      {
+        "date": "2026-08-25",
+        "asset_id": "ethereum",
+        "close": "2620.73074002"
+      },
+      {
+        "date": "2026-08-26",
+        "asset_id": "bitcoin",
+        "close": "49800.83934292"
+      },
+      {
+        "date": "2026-08-26",
+        "asset_id": "ethereum",
+        "close": "2593.23523623"
+      },
+      {
+        "date": "2026-08-27",
+        "asset_id": "bitcoin",
+        "close": "50329.28385250"
+      },
+      {
+        "date": "2026-08-27",
+        "asset_id": "ethereum",
+        "close": "2562.26874704"
+      },
+      {
+        "date": "2026-08-28",
+        "asset_id": "bitcoin",
+        "close": "51092.02880903"
+      },
+      {
+        "date": "2026-08-28",
+        "asset_id": "ethereum",
+        "close": "2533.31224276"
+      },
+      {
+        "date": "2026-08-29",
+        "asset_id": "bitcoin",
+        "close": "51840.09189338"
+      },
+      {
+        "date": "2026-08-29",
+        "asset_id": "ethereum",
+        "close": "2511.52936127"
+      },
+      {
+        "date": "2026-08-30",
+        "asset_id": "bitcoin",
+        "close": "52329.61958681"
+      },
+      {
+        "date": "2026-08-30",
+        "asset_id": "ethereum",
+        "close": "2500.95118313"
+      },
+      {
+        "date": "2026-08-31",
+        "asset_id": "bitcoin",
+        "close": "52407.07222069"
+      },
+      {
+        "date": "2026-08-31",
+        "asset_id": "ethereum",
+        "close": "2503.83981262"
+      },
+      {
+        "date": "2026-09-01",
+        "asset_id": "bitcoin",
+        "close": "52062.85980020"
+      },
+      {
+        "date": "2026-09-01",
+        "asset_id": "ethereum",
+        "close": "2520.33124121"
+      },
+      {
+        "date": "2026-09-02",
+        "asset_id": "bitcoin",
+        "close": "51434.69206537"
+      },
+      {
+        "date": "2026-09-02",
+        "asset_id": "ethereum",
+        "close": "2548.41387748"
+      },
+      {
+        "date": "2026-09-03",
+        "asset_id": "bitcoin",
+        "close": "50759.47251700"
+      },
+      {
+        "date": "2026-09-03",
+        "asset_id": "ethereum",
+        "close": "2584.24613319"
+      },
+      {
+        "date": "2026-09-04",
+        "asset_id": "bitcoin",
+        "close": "50290.54120802"
+      },
+      {
+        "date": "2026-09-04",
+        "asset_id": "ethereum",
+        "close": "2622.76292558"
+      },
+      {
+        "date": "2026-09-05",
+        "asset_id": "bitcoin",
+        "close": "50209.17577441"
+      },
+      {
+        "date": "2026-09-05",
+        "asset_id": "ethereum",
+        "close": "2658.47534260"
+      },
+      {
+        "date": "2026-09-06",
+        "asset_id": "bitcoin",
+        "close": "50561.26594154"
+      },
+      {
+        "date": "2026-09-06",
+        "asset_id": "ethereum",
+        "close": "2686.33722139"
+      },
+      {
+        "date": "2026-09-07",
+        "asset_id": "bitcoin",
+        "close": "51241.28292283"
+      },
+      {
+        "date": "2026-09-07",
+        "asset_id": "ethereum",
+        "close": "2702.54182645"
+      },
+      {
+        "date": "2026-09-08",
+        "asset_id": "bitcoin",
+        "close": "52029.14366102"
+      },
+      {
+        "date": "2026-09-08",
+        "asset_id": "ethereum",
+        "close": "2705.12284950"
+      },
+      {
+        "date": "2026-09-09",
+        "asset_id": "bitcoin",
+        "close": "52667.09217188"
+      },
+      {
+        "date": "2026-09-09",
+        "asset_id": "ethereum",
+        "close": "2694.26484629"
+      },
+      {
+        "date": "2026-09-10",
+        "asset_id": "bitcoin",
+        "close": "52949.74112518"
+      },
+      {
+        "date": "2026-09-10",
+        "asset_id": "ethereum",
+        "close": "2672.27409934"
+      },
+      {
+        "date": "2026-09-11",
+        "asset_id": "bitcoin",
+        "close": "52795.81954817"
+      },
+      {
+        "date": "2026-09-11",
+        "asset_id": "ethereum",
+        "close": "2643.21450659"
+      },
+      {
+        "date": "2026-09-12",
+        "asset_id": "bitcoin",
+        "close": "52276.56311457"
+      },
+      {
+        "date": "2026-09-12",
+        "asset_id": "ethereum",
+        "close": "2612.26598133"
+      },
+      {
+        "date": "2026-09-13",
+        "asset_id": "bitcoin",
+        "close": "51590.82947424"
+      },
+      {
+        "date": "2026-09-13",
+        "asset_id": "ethereum",
+        "close": "2584.90665774"
+      },
+      {
+        "date": "2026-09-14",
+        "asset_id": "bitcoin",
+        "close": "50995.63155494"
+      },
+      {
+        "date": "2026-09-14",
+        "asset_id": "ethereum",
+        "close": "2566.04801399"
+      },
+      {
+        "date": "2026-09-15",
+        "asset_id": "bitcoin",
+        "close": "50716.35555235"
+      },
+      {
+        "date": "2026-09-15",
+        "asset_id": "ethereum",
+        "close": "2559.25945780"
+      },
+      {
+        "date": "2026-09-16",
+        "asset_id": "bitcoin",
+        "close": "50868.02704749"
+      },
+      {
+        "date": "2026-09-16",
+        "asset_id": "ethereum",
+        "close": "2566.20479547"
+      },
+      {
+        "date": "2026-09-17",
+        "asset_id": "bitcoin",
+        "close": "51415.12926201"
+      },
+      {
+        "date": "2026-09-17",
+        "asset_id": "ethereum",
+        "close": "2586.37955345"
+      },
+      {
+        "date": "2026-09-18",
+        "asset_id": "bitcoin",
+        "close": "52184.01009066"
+      },
+      {
+        "date": "2026-09-18",
+        "asset_id": "ethereum",
+        "close": "2617.19062360"
+      },
+      {
+        "date": "2026-09-19",
+        "asset_id": "bitcoin",
+        "close": "52923.54377765"
+      },
+      {
+        "date": "2026-09-19",
+        "asset_id": "ethereum",
+        "close": "2654.36565796"
+      },
+      {
+        "date": "2026-09-20",
+        "asset_id": "bitcoin",
+        "close": "53392.85636812"
+      },
+      {
+        "date": "2026-09-20",
+        "asset_id": "ethereum",
+        "close": "2692.62757856"
+      },
+      {
+        "date": "2026-09-21",
+        "asset_id": "bitcoin",
+        "close": "53445.46991051"
+      },
+      {
+        "date": "2026-09-21",
+        "asset_id": "ethereum",
+        "close": "2726.52771197"
+      },
+      {
+        "date": "2026-09-22",
+        "asset_id": "bitcoin",
+        "close": "53080.47141927"
+      },
+      {
+        "date": "2026-09-22",
+        "asset_id": "ethereum",
+        "close": "2751.30601508"
+      },
+      {
+        "date": "2026-09-23",
+        "asset_id": "bitcoin",
+        "close": "52442.83180698"
+      },
+      {
+        "date": "2026-09-23",
+        "asset_id": "ethereum",
+        "close": "2763.64258120"
+      },
+      {
+        "date": "2026-09-24",
+        "asset_id": "bitcoin",
+        "close": "33652.29619292"
+      },
+      {
+        "date": "2026-09-24",
+        "asset_id": "ethereum",
+        "close": "1795.41815722"
+      },
+      {
+        "date": "2026-09-25",
+        "asset_id": "bitcoin",
+        "close": "33359.17438083"
+      },
+      {
+        "date": "2026-09-25",
+        "asset_id": "ethereum",
+        "close": "1786.03508419"
+      },
+      {
+        "date": "2026-09-26",
+        "asset_id": "bitcoin",
+        "close": "33322.22430542"
+      },
+      {
+        "date": "2026-09-26",
+        "asset_id": "ethereum",
+        "close": "1770.08466727"
+      },
+      {
+        "date": "2026-09-27",
+        "asset_id": "bitcoin",
+        "close": "33565.70687614"
+      },
+      {
+        "date": "2026-09-27",
+        "asset_id": "ethereum",
+        "close": "1750.46995421"
+      },
+      {
+        "date": "2026-09-28",
+        "asset_id": "bitcoin",
+        "close": "34015.91981101"
+      },
+      {
+        "date": "2026-09-28",
+        "asset_id": "ethereum",
+        "close": "1730.67250459"
+      },
+      {
+        "date": "2026-09-29",
+        "asset_id": "bitcoin",
+        "close": "34526.94396422"
+      },
+      {
+        "date": "2026-09-29",
+        "asset_id": "ethereum",
+        "close": "1714.20272804"
+      },
+      {
+        "date": "2026-09-30",
+        "asset_id": "bitcoin",
+        "close": "34931.61708181"
+      },
+      {
+        "date": "2026-09-30",
+        "asset_id": "ethereum",
+        "close": "1704.04566780"
+      },
+      {
+        "date": "2026-10-01",
+        "asset_id": "bitcoin",
+        "close": "35099.92838634"
+      },
+      {
+        "date": "2026-10-01",
+        "asset_id": "ethereum",
+        "close": "1702.18972800"
+      },
+      {
+        "date": "2026-10-02",
+        "asset_id": "bitcoin",
+        "close": "34984.43508180"
+      },
+      {
+        "date": "2026-10-02",
+        "asset_id": "ethereum",
+        "close": "1709.31274838"
+      },
+      {
+        "date": "2026-10-03",
+        "asset_id": "bitcoin",
+        "close": "34636.83548728"
+      },
+      {
+        "date": "2026-10-03",
+        "asset_id": "ethereum",
+        "close": "1724.67498829"
+      },
+      {
+        "date": "2026-10-04",
+        "asset_id": "bitcoin",
+        "close": "34189.90932666"
+      },
+      {
+        "date": "2026-10-04",
+        "asset_id": "ethereum",
+        "close": "1746.23591550"
+      },
+      {
+        "date": "2026-10-05",
+        "asset_id": "bitcoin",
+        "close": "33811.13395104"
+      },
+      {
+        "date": "2026-10-05",
+        "asset_id": "ethereum",
+        "close": "1770.97636133"
+      }
+    ],
+    "quality": {
+      "transactions": 4,
+      "prices": 120,
+      "assets": 2,
+      "first_date": "2026-08-07",
+      "warnings": [
+        "USD only; fees are cash USD. Weighted-average cost is descriptive accounting, not a jurisdiction-specific tax return.",
+        "Daily cash flows precede trading and are modeled at start of day. Exact prices are required for every end-of-day holding.",
+        "Native-token fees, staking, swaps, derivatives, short sales and wallet transfers require upstream conversion or a future ledger extension."
+      ]
+    }
+  },
+  "results": {
+    "summary": {
+      "cash": "6274.0",
+      "equity": "12311.577937099",
+      "net_contributions": "15000",
+      "total_fees": "26",
+      "nontrade_fees": "5",
+      "realized_pnl": "45.0",
+      "unrealized_pnl": "-2728.422062901",
+      "total_pnl": "-2688.422062901",
+      "cash_allocation": 0.509601615004547
+    },
+    "holdings": [
+      {
+        "asset_id": "bitcoin",
+        "quantity": "0.1",
+        "cost_basis": "5010.0",
+        "average_cost": "50100",
+        "price": "33811.13395104",
+        "market_value": "3381.113395104",
+        "unrealized_pnl": "-1628.886604896",
+        "realized_pnl": "0",
+        "trade_fees": "10",
+        "allocation": 0.27462876102303246
+      },
+      {
+        "asset_id": "ethereum",
+        "quantity": "1.5",
+        "cost_basis": "3756.0",
+        "average_cost": "2504",
+        "price": "1770.97636133",
+        "market_value": "2656.464541995",
+        "unrealized_pnl": "-1099.535458005",
+        "realized_pnl": "45.0",
+        "trade_fees": "11",
+        "allocation": 0.21576962397242053
+      }
+    ],
+    "closed_positions": [],
+    "history": [
+      {
+        "date": "2026-08-07",
+        "cash": "4977.0",
+        "equity": "15152.000000000",
+        "net_contributions": "15000",
+        "total_fees": "23",
+        "nontrade_fees": "5",
+        "realized_pnl": "0",
+        "unrealized_pnl": "157.000000000",
+        "total_pnl": "152.000000000",
+        "cash_allocation": 0.3284714889123548,
+        "external_flow": "15000",
+        "trade_notional": "10000.0",
+        "daily_return": 0.010133333333333333,
+        "turnover": 0.6666666666666666,
+        "max_crypto_allocation": 0.341539070749736,
+        "largest_asset": "ethereum",
+        "return_index": 1.0101333333333333,
+        "drawdown": 0.0
+      },
+      {
+        "date": "2026-08-08",
+        "cash": "4977.0",
+        "equity": "15221.265983134",
+        "net_contributions": "15000",
+        "total_fees": "23",
+        "nontrade_fees": "5",
+        "realized_pnl": "0",
+        "unrealized_pnl": "226.265983134",
+        "total_pnl": "221.265983134",
+        "cash_allocation": 0.32697674460946874,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": 0.004571408601768743,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.3395700252322762,
+        "largest_asset": "ethereum",
+        "return_index": 1.0147510655422667,
+        "drawdown": 0.0
+      },
+      {
+        "date": "2026-08-09",
+        "cash": "4977.0",
+        "equity": "15240.428559886",
+        "net_contributions": "15000",
+        "total_fees": "23",
+        "nontrade_fees": "5",
+        "realized_pnl": "0",
+        "unrealized_pnl": "245.428559886",
+        "total_pnl": "240.428559886",
+        "cash_allocation": 0.32656561988682214,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": 0.0012589344916009739,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.3370590042107336,
+        "largest_asset": "ethereum",
+        "return_index": 1.0160285706590666,
+        "drawdown": 0.0
+      },
+      {
+        "date": "2026-08-10",
+        "cash": "4977.0",
+        "equity": "15199.643560900",
+        "net_contributions": "15000",
+        "total_fees": "23",
+        "nontrade_fees": "5",
+        "realized_pnl": "0",
+        "unrealized_pnl": "204.643560900",
+        "total_pnl": "199.643560900",
+        "cash_allocation": 0.3274418890192253,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": -0.002676105781785514,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.337950750836939,
+        "largest_asset": "bitcoin",
+        "return_index": 1.0133095707266666,
+        "drawdown": -0.002676105781785454
+      },
+      {
+        "date": "2026-08-11",
+        "cash": "4977.0",
+        "equity": "15106.322981169",
+        "net_contributions": "15000",
+        "total_fees": "23",
+        "nontrade_fees": "5",
+        "realized_pnl": "0",
+        "unrealized_pnl": "111.322981169",
+        "total_pnl": "106.322981169",
+        "cash_allocation": 0.32946468880641233,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": -0.006139655798972849,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.337900421163509,
+        "largest_asset": "bitcoin",
+        "return_index": 1.0070881987446,
+        "drawdown": -0.008799331212376416
+      },
+      {
+        "date": "2026-08-12",
+        "cash": "4977.0",
+        "equity": "14984.314304607",
+        "net_contributions": "15000",
+        "total_fees": "23",
+        "nontrade_fees": "5",
+        "realized_pnl": "0",
+        "unrealized_pnl": "-10.685695393",
+        "total_pnl": "-15.685695393",
+        "cash_allocation": 0.33214733079042513,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": -0.008076662779823498,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.33652791168806545,
+        "largest_asset": "bitcoin",
+        "return_index": 0.9989542869738001,
+        "drawdown": -0.01680492476130957
+      },
+      {
+        "date": "2026-08-13",
+        "cash": "4977.0",
+        "equity": "14867.641044368",
+        "net_contributions": "15000",
+        "total_fees": "23",
+        "nontrade_fees": "5",
+        "realized_pnl": "0",
+        "unrealized_pnl": "-127.358955632",
+        "total_pnl": "-132.358955632",
+        "cash_allocation": 0.3347538446178275,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": -0.0077863596469761875,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.3345981336072448,
+        "largest_asset": "bitcoin",
+        "return_index": 0.9911760696245334,
+        "drawdown": -0.024460435220253873
+      },
+      {
+        "date": "2026-08-14",
+        "cash": "4977.0",
+        "equity": "14790.664118828",
+        "net_contributions": "15000",
+        "total_fees": "23",
+        "nontrade_fees": "5",
+        "realized_pnl": "0",
+        "unrealized_pnl": "-204.335881172",
+        "total_pnl": "-209.335881172",
+        "cash_allocation": 0.3364960464259649,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": -0.005177480765797717,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.333051510660519,
+        "largest_asset": "bitcoin",
+        "return_index": 0.9860442745885334,
+        "drawdown": -0.02951127255317565
+      },
+      {
+        "date": "2026-08-15",
+        "cash": "4977.0",
+        "equity": "14777.777838136",
+        "net_contributions": "15000",
+        "total_fees": "23",
+        "nontrade_fees": "5",
+        "realized_pnl": "0",
+        "unrealized_pnl": "-217.222161864",
+        "total_pnl": "-222.222161864",
+        "cash_allocation": 0.33678947230863066,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": -0.0008712442246319565,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.33262642582235596,
+        "largest_asset": "bitcoin",
+        "return_index": 0.9851851892090667,
+        "drawdown": -0.030356805252034103
+      },
+      {
+        "date": "2026-08-16",
+        "cash": "4977.0",
+        "equity": "14835.971716196",
+        "net_contributions": "15000",
+        "total_fees": "23",
+        "nontrade_fees": "5",
+        "realized_pnl": "0",
+        "unrealized_pnl": "-159.028283804",
+        "total_pnl": "-164.028283804",
+        "cash_allocation": 0.3354684206203193,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": 0.0039379315819610605,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.3335409728271435,
+        "largest_asset": "bitcoin",
+        "return_index": 0.9890647810797333,
+        "drawdown": -0.026538416692202582
+      },
+      {
+        "date": "2026-08-17",
+        "cash": "4977.0",
+        "equity": "14952.685429065",
+        "net_contributions": "15000",
+        "total_fees": "23",
+        "nontrade_fees": "5",
+        "realized_pnl": "0",
+        "unrealized_pnl": "-42.314570935",
+        "total_pnl": "-47.314570935",
+        "cash_allocation": 0.3328499100453031,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": 0.007866940912376304,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.33539614583054833,
+        "largest_asset": "bitcoin",
+        "return_index": 0.996845695271,
+        "drawdown": -0.018880251935851855
+      },
+      {
+        "date": "2026-08-18",
+        "cash": "4977.0",
+        "equity": "15099.659418199",
+        "net_contributions": "15000",
+        "total_fees": "23",
+        "nontrade_fees": "5",
+        "realized_pnl": "0",
+        "unrealized_pnl": "104.659418199",
+        "total_pnl": "99.659418199",
+        "cash_allocation": 0.3296100833904522,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": 0.009829270456550384,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.33735480578452515,
+        "largest_asset": "bitcoin",
+        "return_index": 1.0066439612132667,
+        "drawdown": -0.009236560581866726
+      },
+      {
+        "date": "2026-08-19",
+        "cash": "4977.0",
+        "equity": "15241.520805081",
+        "net_contributions": "15000",
+        "total_fees": "23",
+        "nontrade_fees": "5",
+        "realized_pnl": "0",
+        "unrealized_pnl": "246.520805081",
+        "total_pnl": "241.520805081",
+        "cash_allocation": 0.326542217384294,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": 0.009395005738408927,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.338496961619545,
+        "largest_asset": "bitcoin",
+        "return_index": 1.0161013870054,
+        "drawdown": 0.0
+      },
+      {
+        "date": "2026-08-20",
+        "cash": "4977.0",
+        "equity": "15346.308335652",
+        "net_contributions": "15000",
+        "total_fees": "23",
+        "nontrade_fees": "5",
+        "realized_pnl": "0",
+        "unrealized_pnl": "351.308335652",
+        "total_pnl": "346.308335652",
+        "cash_allocation": 0.32431252462441473,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": 0.0068751361436364955,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.3381802192853899,
+        "largest_asset": "bitcoin",
+        "return_index": 1.0230872223768002,
+        "drawdown": 0.0
+      },
+      {
+        "date": "2026-08-21",
+        "cash": "4977.0",
+        "equity": "15394.548892251",
+        "net_contributions": "15000",
+        "total_fees": "23",
+        "nontrade_fees": "5",
+        "realized_pnl": "0",
+        "unrealized_pnl": "399.548892251",
+        "total_pnl": "394.548892251",
+        "cash_allocation": 0.32329625472203494,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": 0.0031434632710284627,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.3404272554798907,
+        "largest_asset": "ethereum",
+        "return_index": 1.0263032594834003,
+        "drawdown": 0.0
+      },
+      {
+        "date": "2026-08-22",
+        "cash": "4977.0",
+        "equity": "15384.044610815",
+        "net_contributions": "15000",
+        "total_fees": "23",
+        "nontrade_fees": "5",
+        "realized_pnl": "0",
+        "unrealized_pnl": "389.044610815",
+        "total_pnl": "384.044610815",
+        "cash_allocation": 0.32351700257688826,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": -0.0006823377228862766,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.3432471715824187,
+        "largest_asset": "ethereum",
+        "return_index": 1.0256029740543335,
+        "drawdown": -0.0006823377228863947
+      },
+      {
+        "date": "2026-08-23",
+        "cash": "4977.0",
+        "equity": "15329.016513127",
+        "net_contributions": "15000",
+        "total_fees": "23",
+        "nontrade_fees": "5",
+        "realized_pnl": "0",
+        "unrealized_pnl": "334.016513127",
+        "total_pnl": "329.016513127",
+        "cash_allocation": 0.3246783637905241,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": -0.0035769590559634225,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.3453455318706617,
+        "largest_asset": "ethereum",
+        "return_index": 1.0219344342084669,
+        "drawdown": -0.00425685608475268
+      },
+      {
+        "date": "2026-08-24",
+        "cash": "4977.0",
+        "equity": "15254.160224871",
+        "net_contributions": "15000",
+        "total_fees": "23",
+        "nontrade_fees": "5",
+        "realized_pnl": "0",
+        "unrealized_pnl": "259.160224871",
+        "total_pnl": "254.160224871",
+        "cash_allocation": 0.3262716482999371,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": -0.004883306648661826,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.3461117808512234,
+        "largest_asset": "ethereum",
+        "return_index": 1.0169440149914002,
+        "drawdown": -0.009119375199793445
+      },
+      {
+        "date": "2026-08-25",
+        "cash": "4977.0",
+        "equity": "15185.844451282",
+        "net_contributions": "15000",
+        "total_fees": "23",
+        "nontrade_fees": "5",
+        "realized_pnl": "0",
+        "unrealized_pnl": "190.844451282",
+        "total_pnl": "185.844451282",
+        "cash_allocation": 0.32773942970157566,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": -0.0044785011158867466,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.3451544296305177,
+        "largest_asset": "ethereum",
+        "return_index": 1.012389630085467,
+        "drawdown": -0.013557035183671684
+      },
+      {
+        "date": "2026-08-26",
+        "cash": "4977.0",
+        "equity": "15143.554406752",
+        "net_contributions": "15000",
+        "total_fees": "23",
+        "nontrade_fees": "5",
+        "realized_pnl": "0",
+        "unrealized_pnl": "148.554406752",
+        "total_pnl": "143.554406752",
+        "cash_allocation": 0.3286546781765398,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": -0.002784833248205031,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.34248699698582835,
+        "largest_asset": "ethereum",
+        "return_index": 1.009570293783467,
+        "drawdown": -0.016304114349550036
+      },
+      {
+        "date": "2026-08-27",
+        "cash": "6274.0",
+        "equity": "15150.331505810",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "110.331505810",
+        "total_pnl": "150.331505810",
+        "cash_allocation": 0.4141163510246613,
+        "external_flow": "0",
+        "trade_notional": "1300.0",
+        "daily_return": 0.000447523670861467,
+        "turnover": 0.08584510380339598,
+        "max_crypto_allocation": 0.33219922503477384,
+        "largest_asset": "bitcoin",
+        "return_index": 1.0100221003873335,
+        "drawdown": -0.015863887155792566
+      },
+      {
+        "date": "2026-08-28",
+        "cash": "6274.0",
+        "equity": "15183.171245043",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "143.171245043",
+        "total_pnl": "183.171245043",
+        "cash_allocation": 0.4132206571830858,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": 0.002167592123011057,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.33650433090985865,
+        "largest_asset": "bitcoin",
+        "return_index": 1.0122114163362002,
+        "drawdown": -0.013730681469620754
+      },
+      {
+        "date": "2026-08-29",
+        "cash": "6274.0",
+        "equity": "15225.303231243",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "185.303231243",
+        "total_pnl": "225.303231243",
+        "cash_allocation": 0.4120771786748702,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": 0.0027749134564859267,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.3404864330518017,
+        "largest_asset": "bitcoin",
+        "return_index": 1.0150202154162,
+        "drawdown": -0.010993869465911743
+      },
+      {
+        "date": "2026-08-30",
+        "cash": "6274.0",
+        "equity": "15258.388733376",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "218.388733376",
+        "total_pnl": "258.388733376",
+        "cash_allocation": 0.41118365180173544,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": 0.002173060308257577,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.34295639271756706,
+        "largest_asset": "bitcoin",
+        "return_index": 1.0172259155584,
+        "drawdown": -0.008844699499024666
+      },
+      {
+        "date": "2026-08-31",
+        "cash": "6274.0",
+        "equity": "15270.466940999",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "230.466940999",
+        "total_pnl": "270.466940999",
+        "cash_allocation": 0.41085842523618027,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": 0.0007915781826019603,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.3431923360508681,
+        "largest_asset": "bitcoin",
+        "return_index": 1.0180311293999333,
+        "drawdown": -0.008060122587577823
+      },
+      {
+        "date": "2026-09-01",
+        "cash": "6274.0",
+        "equity": "15260.782841835",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "220.782841835",
+        "total_pnl": "260.782841835",
+        "cash_allocation": 0.41111914539540073,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": -0.0006341717775505339,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.3411545812543638,
+        "largest_asset": "bitcoin",
+        "return_index": 1.017385522789,
+        "drawdown": -0.00868918286285969
+      },
+      {
+        "date": "2026-09-02",
+        "cash": "6274.0",
+        "equity": "15240.090022757",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "200.090022757",
+        "total_pnl": "240.090022757",
+        "cash_allocation": 0.41167735824601154,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": -0.001355947417145203,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.3374959858410681,
+        "largest_asset": "bitcoin",
+        "return_index": 1.0160060015171335,
+        "drawdown": -0.010033348204944836
+      },
+      {
+        "date": "2026-09-03",
+        "cash": "6274.0",
+        "equity": "15226.316451485",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "186.316451485",
+        "total_pnl": "226.316451485",
+        "cash_allocation": 0.41204975740459576,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": -0.0009037723039321194,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.33336672516122245,
+        "largest_asset": "bitcoin",
+        "return_index": 1.0150877634323334,
+        "drawdown": -0.010928052646653641
+      },
+      {
+        "date": "2026-09-04",
+        "cash": "6274.0",
+        "equity": "15237.198509172",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "197.198509172",
+        "total_pnl": "237.198509172",
+        "cash_allocation": 0.41175548091884334,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": 0.0007146874768873393,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.33005109947046835,
+        "largest_asset": "bitcoin",
+        "return_index": 1.0158132339448,
+        "drawdown": -0.01022117531213973
+      },
+      {
+        "date": "2026-09-05",
+        "cash": "6274.0",
+        "equity": "15282.630591341",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "242.630591341",
+        "total_pnl": "282.630591341",
+        "cash_allocation": 0.4105314175136047,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": 0.002981655856334237,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.3285375215629308,
+        "largest_asset": "bitcoin",
+        "return_index": 1.0188420394227333,
+        "drawdown": -0.007269995483033531
+      },
+      {
+        "date": "2026-09-06",
+        "cash": "6274.0",
+        "equity": "15359.632426239",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "319.632426239",
+        "total_pnl": "359.632426239",
+        "cash_allocation": 0.4084733166714373,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": 0.005038519673545505,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.32918278600968165,
+        "largest_asset": "bitcoin",
+        "return_index": 1.0239754950825999,
+        "drawdown": -0.002268105824756006
+      },
+      {
+        "date": "2026-09-07",
+        "cash": "6274.0",
+        "equity": "15451.941031958",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "411.941031958",
+        "total_pnl": "451.941031958",
+        "cash_allocation": 0.4060331311790534,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": 0.006009818669964287,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.33161712704476287,
+        "largest_asset": "bitcoin",
+        "return_index": 1.0301294021305332,
+        "drawdown": 0.0
+      },
+      {
+        "date": "2026-09-08",
+        "cash": "6274.0",
+        "equity": "15534.598640352",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "494.598640352",
+        "total_pnl": "534.598640352",
+        "cash_allocation": 0.4038726809267495,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": 0.005349334962063727,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.3349242865269229,
+        "largest_asset": "bitcoin",
+        "return_index": 1.0356399093567998,
+        "drawdown": 0.0
+      },
+      {
+        "date": "2026-09-09",
+        "cash": "6274.0",
+        "equity": "15582.106486623",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "542.106486623",
+        "total_pnl": "582.106486623",
+        "cash_allocation": 0.4026413248674775,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": 0.003058195925808838,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.33799725484544657,
+        "largest_asset": "bitcoin",
+        "return_index": 1.0388070991082,
+        "drawdown": 0.0
+      },
+      {
+        "date": "2026-09-10",
+        "cash": "6274.0",
+        "equity": "15577.385261528",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "537.385261528",
+        "total_pnl": "577.385261528",
+        "cash_allocation": 0.402763358205893,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": -0.0003029901701065321,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.3399141783823745,
+        "largest_asset": "bitcoin",
+        "return_index": 1.0384923507685333,
+        "drawdown": -0.00030299017010648743
+      },
+      {
+        "date": "2026-09-11",
+        "cash": "6274.0",
+        "equity": "15518.403714702",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "478.403714702",
+        "total_pnl": "518.403714702",
+        "cash_allocation": 0.40429416036238747,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": -0.0037863573273538235,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.3402142418691666,
+        "largest_asset": "bitcoin",
+        "return_index": 1.0345602476468,
+        "drawdown": -0.004088200268409503
+      },
+      {
+        "date": "2026-09-12",
+        "cash": "6274.0",
+        "equity": "15420.055283452",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "380.055283452",
+        "total_pnl": "420.055283452",
+        "cash_allocation": 0.406872730653108,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": -0.006337535294098939,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.3390167035955473,
+        "largest_asset": "bitcoin",
+        "return_index": 1.0280036855634667,
+        "drawdown": -0.010399826449018157
+      },
+      {
+        "date": "2026-09-13",
+        "cash": "6274.0",
+        "equity": "15310.442934034",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "270.442934034",
+        "total_pnl": "310.442934034",
+        "cash_allocation": 0.40978566244176745,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": -0.00710842778466756,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.3369649702266767,
+        "largest_asset": "bitcoin",
+        "return_index": 1.0206961956022667,
+        "drawdown": -0.01743432781839982
+      },
+      {
+        "date": "2026-09-14",
+        "cash": "6274.0",
+        "equity": "15222.635176479",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "182.635176479",
+        "total_pnl": "222.635176479",
+        "cash_allocation": 0.4121494029952295,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": -0.005735154621804556,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.33499871056316877,
+        "largest_asset": "bitcoin",
+        "return_index": 1.0148423450986,
+        "drawdown": -0.023069493874438574
+      },
+      {
+        "date": "2026-09-15",
+        "cash": "6274.0",
+        "equity": "15184.524741935",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "144.524741935",
+        "total_pnl": "184.524741935",
+        "cash_allocation": 0.4131838240990932,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": -0.0025035372721068493,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.33400028261857273,
+        "largest_asset": "bitcoin",
+        "return_index": 1.0123016494623334,
+        "drawdown": -0.0255152758087821
+      },
+      {
+        "date": "2026-09-16",
+        "cash": "6274.0",
+        "equity": "15210.109897954",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "170.109897954",
+        "total_pnl": "210.109897954",
+        "cash_allocation": 0.4124888013362712,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": 0.0016849494109184495,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.33443563122665243,
+        "largest_asset": "bitcoin",
+        "return_index": 1.0140073265302665,
+        "drawdown": -0.023873318346807282
+      },
+      {
+        "date": "2026-09-17",
+        "cash": "6274.0",
+        "equity": "15295.082256376",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "255.082256376",
+        "total_pnl": "295.082256376",
+        "cash_allocation": 0.41019720553543165,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": 0.005586570971024353,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.33615464369651743,
+        "largest_asset": "bitcoin",
+        "return_index": 1.0196721504250665,
+        "drawdown": -0.018420117363041166
+      },
+      {
+        "date": "2026-09-18",
+        "cash": "6274.0",
+        "equity": "15418.186944466",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "378.186944466",
+        "total_pnl": "418.186944466",
+        "cash_allocation": 0.4069220345166399,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": 0.008048645049861162,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.3384575000849256,
+        "largest_asset": "bitcoin",
+        "return_index": 1.0278791296310665,
+        "drawdown": -0.010519729299611869
+      },
+      {
+        "date": "2026-09-19",
+        "cash": "6274.0",
+        "equity": "15547.902864705",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "507.902864705",
+        "total_pnl": "547.902864705",
+        "cash_allocation": 0.4035270900902326,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": 0.008413175991847635,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.34039023936656265,
+        "largest_asset": "bitcoin",
+        "return_index": 1.0365268576469997,
+        "drawdown": -0.0021950576417486545
+      },
+      {
+        "date": "2026-09-20",
+        "cash": "6274.0",
+        "equity": "15652.227004652",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "612.227004652",
+        "total_pnl": "652.227004652",
+        "cash_allocation": 0.4008375292624688,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": 0.00670985282419176,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.3411198697300461,
+        "largest_asset": "bitcoin",
+        "return_index": 1.0434818003101332,
+        "drawdown": 0.0
+      },
+      {
+        "date": "2026-09-21",
+        "cash": "6274.0",
+        "equity": "15708.338559006",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "668.338559006",
+        "total_pnl": "708.338559006",
+        "cash_allocation": 0.399405702673944,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": 0.003584892701679006,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.3402363000373984,
+        "largest_asset": "bitcoin",
+        "return_index": 1.0472225706004,
+        "drawdown": 0.0
+      },
+      {
+        "date": "2026-09-22",
+        "cash": "6274.0",
+        "equity": "15709.006164547",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "669.006164547",
+        "total_pnl": "709.006164547",
+        "cash_allocation": 0.3993887286236814,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": 4.250007335226706e-05,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.33789834228383653,
+        "largest_asset": "bitcoin",
+        "return_index": 1.0472670776364665,
+        "drawdown": 0.0
+      },
+      {
+        "date": "2026-09-23",
+        "cash": "6274.0",
+        "equity": "15663.747052498",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "623.747052498",
+        "total_pnl": "663.747052498",
+        "cash_allocation": 0.4005427295890509,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": -0.002881093276998223,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.33480387311678783,
+        "largest_asset": "bitcoin",
+        "return_index": 1.0442498034998664,
+        "drawdown": -0.00288109327699837
+      },
+      {
+        "date": "2026-09-24",
+        "cash": "6274.0",
+        "equity": "12332.356855122",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "-2707.643144878",
+        "total_pnl": "-2667.643144878",
+        "cash_allocation": 0.5087429818732677,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": -0.21268156247739722,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.2728780604410031,
+        "largest_asset": "bitcoin",
+        "return_index": 0.8221571236747998,
+        "drawdown": -0.21494990033460049
+      },
+      {
+        "date": "2026-09-25",
+        "cash": "6274.0",
+        "equity": "12288.970064368",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "-2751.029935632",
+        "total_pnl": "-2711.029935632",
+        "cash_allocation": 0.5105391230621946,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": -0.0035181264427959005,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.27145622624271243,
+        "largest_asset": "bitcoin",
+        "return_index": 0.8192646709578664,
+        "drawdown": -0.21771180584915295
+      },
+      {
+        "date": "2026-09-26",
+        "cash": "6274.0",
+        "equity": "12261.349431447",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "-2778.650568553",
+        "total_pnl": "-2738.650568553",
+        "cash_allocation": 0.5116891933532952,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": -0.0022475954271453814,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.27176637034711393,
+        "largest_asset": "bitcoin",
+        "return_index": 0.8174232954297997,
+        "drawdown": -0.21947007321703615
+      },
+      {
+        "date": "2026-09-27",
+        "cash": "6274.0",
+        "equity": "12256.275618929",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "-2783.724381071",
+        "total_pnl": "-2743.724381071",
+        "cash_allocation": 0.5119010207562749,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": -0.0004138053928213694,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.27386547039053205,
+        "largest_asset": "bitcoin",
+        "return_index": 0.8170850412619332,
+        "drawdown": -0.21979306070999738
+      },
+      {
+        "date": "2026-09-28",
+        "cash": "6274.0",
+        "equity": "12271.600737986",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "-2768.399262014",
+        "total_pnl": "-2728.399262014",
+        "cash_allocation": 0.5112617444095302,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": 0.0012503895582546606,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.2771921979641643,
+        "largest_asset": "bitcoin",
+        "return_index": 0.8181067158657332,
+        "drawdown": -0.2188174980998312
+      },
+      {
+        "date": "2026-09-29",
+        "cash": "6274.0",
+        "equity": "12297.998488482",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "-2742.001511518",
+        "total_pnl": "-2702.001511518",
+        "cash_allocation": 0.5101643170533866,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": 0.002151125273680666,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.2807525468193632,
+        "largest_asset": "bitcoin",
+        "return_index": 0.8198665658988,
+        "drawdown": -0.2171370766766365
+      },
+      {
+        "date": "2026-09-30",
+        "cash": "6274.0",
+        "equity": "12323.230209881",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "-2716.769790119",
+        "total_pnl": "-2676.769790119",
+        "cash_allocation": 0.5091197594417564,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": 0.0020516933241316792,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.28346153148872577,
+        "largest_asset": "bitcoin",
+        "return_index": 0.8215486806587333,
+        "drawdown": -0.21553088204314386
+      },
+      {
+        "date": "2026-10-01",
+        "cash": "6274.0",
+        "equity": "12337.277430634",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "-2702.722569366",
+        "total_pnl": "-2662.722569366",
+        "cash_allocation": 0.5085400758210546,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": 0.001139897617244598,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.2845030322426352,
+        "largest_asset": "bitcoin",
+        "return_index": 0.8224851620422666,
+        "drawdown": -0.21463666756478283
+      },
+      {
+        "date": "2026-10-02",
+        "cash": "6274.0",
+        "equity": "12336.412630750",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "-2703.587369250",
+        "total_pnl": "-2663.587369250",
+        "cash_allocation": 0.5085757251959372,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": -7.009649323866739e-05,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.2835867778498027,
+        "largest_asset": "bitcoin",
+        "return_index": 0.8224275087166667,
+        "drawdown": -0.21469171878030469
+      },
+      {
+        "date": "2026-10-03",
+        "cash": "6274.0",
+        "equity": "12324.696031163",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "-2715.303968837",
+        "total_pnl": "-2675.303968837",
+        "cash_allocation": 0.509059207962305,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": -0.0009497574325452571,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.28103602230595176,
+        "largest_asset": "bitcoin",
+        "return_index": 0.8216464020775334,
+        "drawdown": -0.2154375711572325
+      },
+      {
+        "date": "2026-10-04",
+        "cash": "6274.0",
+        "equity": "12312.344805916",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "-2727.655194084",
+        "total_pnl": "-2687.655194084",
+        "cash_allocation": 0.5095698746988782,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": -0.001002152524960447,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.2776880429000979,
+        "largest_asset": "bitcoin",
+        "return_index": 0.8208229870610667,
+        "drawdown": -0.21622382237628635
+      },
+      {
+        "date": "2026-10-05",
+        "cash": "6274.0",
+        "equity": "12311.577937099",
+        "net_contributions": "15000",
+        "total_fees": "26",
+        "nontrade_fees": "5",
+        "realized_pnl": "45.0",
+        "unrealized_pnl": "-2728.422062901",
+        "total_pnl": "-2688.422062901",
+        "cash_allocation": 0.509601615004547,
+        "external_flow": "0",
+        "trade_notional": "0",
+        "daily_return": -6.228454685833073e-05,
+        "turnover": 0.0,
+        "max_crypto_allocation": 0.27462876102303246,
+        "largest_asset": "bitcoin",
+        "return_index": 0.8207718624732667,
+        "drawdown": -0.21627263952034803
+      }
+    ],
+    "trades": [
+      {
+        "transaction_id": "B1",
+        "date": "2026-08-07",
+        "sequence": 2,
+        "kind": "buy",
+        "asset_id": "bitcoin",
+        "quantity": "0.1",
+        "unit_price": "50000",
+        "amount": "0",
+        "fee": "10",
+        "notional": "5000.0"
+      },
+      {
+        "transaction_id": "B2",
+        "date": "2026-08-07",
+        "sequence": 3,
+        "kind": "buy",
+        "asset_id": "ethereum",
+        "quantity": "2",
+        "unit_price": "2500",
+        "amount": "0",
+        "fee": "8",
+        "notional": "5000"
+      },
+      {
+        "transaction_id": "S1",
+        "date": "2026-08-27",
+        "sequence": 1,
+        "kind": "sell",
+        "asset_id": "ethereum",
+        "quantity": "0.5",
+        "unit_price": "2600",
+        "amount": "0",
+        "fee": "3",
+        "notional": "1300.0"
+      }
+    ],
+    "risk": {
+      "status": "ok",
+      "observations": 59,
+      "cumulative_return": -0.17922813752673328,
+      "max_drawdown": 0.21979306070999738,
+      "annualized_volatility": 0.5370234868771024,
+      "historical_var_95": 0.007176220970898422,
+      "historical_es_95": 0.07618152830139897
+    },
+    "alerts": [
+      {
+        "date": "2026-08-07",
+        "code": "TURNOVER",
+        "severity": "review",
+        "message": "Trade notional is 66.7% of beginning capital; review threshold 50.0%.",
+        "evidence": {
+          "turnover": 0.6666666666666666
+        }
+      },
+      {
+        "date": "2026-09-24",
+        "code": "DAILY_CHANGE",
+        "severity": "review",
+        "message": "Cash-flow-adjusted daily change is -21.3%; absolute threshold 10.0%.",
+        "evidence": {
+          "daily_return": -0.21268156247739722
+        }
+      },
+      {
+        "date": "2026-09-24",
+        "code": "ML_NOVELTY",
+        "severity": "review",
+        "message": "Unusual relative to the first 30 observed days. Largest observed baseline deviation: daily return (-21.3%; baseline median 0.1%).",
+        "evidence": {
+          "decision_score": -0.05680643682491271,
+          "observed_feature": "daily return",
+          "value": -0.21268156247739722,
+          "baseline_median": 0.0005811055738744031
+        },
+        "explanation_method": "observed baseline deviation; not a causal model explanation"
+      },
+      {
+        "date": "2026-09-25",
+        "code": "ML_NOVELTY",
+        "severity": "review",
+        "message": "Unusual relative to the first 30 observed days. Largest observed baseline deviation: crypto concentration (27.1%; baseline median 33.8%).",
+        "evidence": {
+          "decision_score": -0.0003766445001875951,
+          "observed_feature": "crypto concentration",
+          "value": 0.27145622624271243,
+          "baseline_median": 0.3376982035022885
+        },
+        "explanation_method": "observed baseline deviation; not a causal model explanation"
+      }
+    ],
+    "ml": {
+      "enabled": true,
+      "status": "scored",
+      "training_days": 30,
+      "scoring_days": 29,
+      "model": "IsolationForest",
+      "scikit_learn_version": "1.9.1",
+      "numpy_version": "2.5.3",
+      "random_state": 42,
+      "contamination": 0.05,
+      "scores": [
+        {
+          "date": "2026-09-07",
+          "decision_score": 0.039937550903561436,
+          "is_unusual": false
+        },
+        {
+          "date": "2026-09-08",
+          "decision_score": 0.08738905915662792,
+          "is_unusual": false
+        },
+        {
+          "date": "2026-09-09",
+          "decision_score": 0.13680354304239423,
+          "is_unusual": false
+        },
+        {
+          "date": "2026-09-10",
+          "decision_score": 0.13625089310155036,
+          "is_unusual": false
+        },
+        {
+          "date": "2026-09-11",
+          "decision_score": 0.10546106883796064,
+          "is_unusual": false
+        },
+        {
+          "date": "2026-09-12",
+          "decision_score": 0.07065461279064977,
+          "is_unusual": false
+        },
+        {
+          "date": "2026-09-13",
+          "decision_score": 0.06096014604175737,
+          "is_unusual": false
+        },
+        {
+          "date": "2026-09-14",
+          "decision_score": 0.0758913792769047,
+          "is_unusual": false
+        },
+        {
+          "date": "2026-09-15",
+          "decision_score": 0.11319655776356813,
+          "is_unusual": false
+        },
+        {
+          "date": "2026-09-16",
+          "decision_score": 0.12570182949504732,
+          "is_unusual": false
+        },
+        {
+          "date": "2026-09-17",
+          "decision_score": 0.09032102417473226,
+          "is_unusual": false
+        },
+        {
+          "date": "2026-09-18",
+          "decision_score": 0.06425901646655013,
+          "is_unusual": false
+        },
+        {
+          "date": "2026-09-19",
+          "decision_score": 0.04571964109481608,
+          "is_unusual": false
+        },
+        {
+          "date": "2026-09-20",
+          "decision_score": 0.050568667555432434,
+          "is_unusual": false
+        },
+        {
+          "date": "2026-09-21",
+          "decision_score": 0.11679101596981656,
+          "is_unusual": false
+        },
+        {
+          "date": "2026-09-22",
+          "decision_score": 0.1473190940943025,
+          "is_unusual": false
+        },
+        {
+          "date": "2026-09-23",
+          "decision_score": 0.11607386350148668,
+          "is_unusual": false
+        },
+        {
+          "date": "2026-09-24",
+          "decision_score": -0.05680643682491271,
+          "is_unusual": true
+        },
+        {
+          "date": "2026-09-25",
+          "decision_score": -0.0003766445001875951,
+          "is_unusual": true
+        },
+        {
+          "date": "2026-09-26",
+          "decision_score": 0.00834281095884526,
+          "is_unusual": false
+        },
+        {
+          "date": "2026-09-27",
+          "decision_score": 0.01647288161910898,
+          "is_unusual": false
+        },
+        {
+          "date": "2026-09-28",
+          "decision_score": 0.003260705199774616,
+          "is_unusual": false
+        },
+        {
+          "date": "2026-09-29",
+          "decision_score": 0.005275129826967984,
+          "is_unusual": false
+        },
+        {
+          "date": "2026-09-30",
+          "decision_score": 0.004404033100413596,
+          "is_unusual": false
+        },
+        {
+          "date": "2026-10-01",
+          "decision_score": 0.00769024752715719,
+          "is_unusual": false
+        },
+        {
+          "date": "2026-10-02",
+          "decision_score": 0.013452034392436918,
+          "is_unusual": false
+        },
+        {
+          "date": "2026-10-03",
+          "decision_score": 0.015634829816244866,
+          "is_unusual": false
+        },
+        {
+          "date": "2026-10-04",
+          "decision_score": 0.015634829816244866,
+          "is_unusual": false
+        },
+        {
+          "date": "2026-10-05",
+          "decision_score": 0.013452034392436918,
+          "is_unusual": false
+        }
+      ],
+      "note": "Scores indicate statistical novelty, not fraud probability or a price forecast.",
+      "training_start": "2026-08-08",
+      "training_end": "2026-09-06"
+    },
+    "warnings": [
+      "Daily prices are supplied snapshots; valuation fails on missing held-asset prices instead of filling gaps.",
+      "Returns assume external cash flows occur at the beginning of the UTC day. Intraday timing requires a richer ledger.",
+      "Tail risk is historical one-day loss estimation; volatility uses 365-day annualization. These are descriptive statistics, not guaranteed bounds.",
+      "AI alerts are unsupervised novelty flags with observed evidence. They do not establish fraud, causation or future price direction."
+    ]
+  },
+  "engine_version": "1.0.0",
+  "created_at": 1791321464.4543357
+}
